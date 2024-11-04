@@ -10,7 +10,7 @@ using namespace PhysBAM;
 
 #ifdef USE_ALAMERE_TASKQ
 extern "C" {
-#include "taskQ.h"
+#include "../taskQ.h"
 }
 
 static int startedEnqueuing = 0;
